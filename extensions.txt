@@ -1,0 +1,8 @@
+I chose to implement 3 extensions:
+1.) Player control over bounces w/ kicker. I made it so that hitting the ball with the left or right side of your paddle either reverses the direction or adds a little kicker, depending on the initial direction of the ball. For instance, if the ball is coming down with the a positive x-velocity and you hit it with your left side, it will reverse the x velocity. But if you hit that ball on the right-side, it adds a little heat to the ball. This takes place in the helper methods leftPaddleCollisions and rightPaddleCollisions.
+
+2.) Sounds. I thought sounds during gameplay were a little annoying so I have an intro sound for the initial screen, and two sounds for the end depending on a win/loss. These use the _count attribute in Breakout to time their playing and make sure they only play once.
+
+3.) Background. Just a nice white brick GImage that I have drawn throughout the entire game.
+
+- Jacob (jwn43)
